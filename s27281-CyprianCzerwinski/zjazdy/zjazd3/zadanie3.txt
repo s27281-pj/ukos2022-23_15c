@@ -1,0 +1,45 @@
+W terminalu jest kilka przydatnych skrótów klawiszowych. Jednym z nich jest CTRL+C lub jak to jest często podawane C-c lub ^C. Niektórzy z Państwa już go mieli okazję przetestować. Jest to sposób na wyłączenie aktywnego programu w terminalu. Proszę go przetestować w taki sposób, że:
+
+Uruchom komendę cat be parametrów
+
+Wciśnij CTRL+C i zobacz co się stanie
+-przerywa wywołanie pliku. 
+
+
+Kolejnym fajnym (zależy dla kogo :) ) skrótem klawiszowym jest CTRL+D. Służy on do zakończenia strumienia wejściowego. Działa to trochę inaczej niż poprzednie rozwiązanie, mimo że na pierwszy rzut oknawygląda tak samo. Tym razem nie wysyła sygnału zakończenia, a jedynia zamyka strumień wejściowy. Jest to bardzo przydatne, jeśli chcemy zakończyć działanie jakiegoś programu korzystającego ze standardowego wejścia (stdin), ale w sposób możliwie bezpieczny.
+
+Zobacz co się stanie:
+
+Wydaj komendę cat > wynik3_1.txt
+
+Wpisz tekst witaj bez wciskania klawisza Enter
+
+Wciśnij CTRL+C
+
+Zobacz co się znalazło w pliku wynik3_1.txt
+-tekst został dopisany do pliku. 
+
+
+Wydaj komendę cat > wynik3_2.txt
+
+Wpisz tekst witaj bez wciskania klawisza Enter
+-strumień wejściowy został przerwany więc tekst nie został zapisany.
+
+Wciśnij CTRL+D (możliwe, że będzie trzeba wcisnąć go 2x)
+-done
+
+Zobacz co się znalazło w pliku wynik3_2.txt
+-nic
+
+W opisie rozwiązania zadania umieść:
+
+jak rozumiesz co się stało?
+
+-użyliśmy przerwania w 2 różnych momentach - najpierw po wprowadzeniu strumienia danych później przed. 
+
+czym oba te przykłady się różnią?
+-tym, że w efekcie otrzymaliśmy 2 wyniki. c-D wydaje się mieć moc ratowania 4 liter, w niektórych przypadkach.
+
+DLACZEGO się różnią?
+-Ponieważ przerwanie przed moz mieć inny skutek niż przerwanie po. 
+

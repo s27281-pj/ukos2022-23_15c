@@ -1,0 +1,26 @@
+Program ps służy do wyświetlania listy procesów. 
+
+Zadania:
+
+A: Zobacz co się stanie jeśli wpiszemy w terminalu:
+
+ps (wyświetla listę procesów)
+
+ps -a (wyświetla listę procesów, usówając ograniczenie do procesów użytkownika)
+
+ps x (wyświetla procesy, które dysponują interfejsem TTY)
+
+ps axu (Wyświetla wszystkie procesy)
+
+INFO: tu kolejność parametrów a, x, u nie ma znaczenie a jedynie fakt, że są podane. Dowolna kolejność powinna dać ten sam wynik.
+
+Jak myślisz, co oznacza znak zapytania w kolumnie 2?
+Nie wiesz? A gdzie może być wyjaśnienie? - w funkcji man.
+
+B: Jak wykonasz poniższe 2 zadania?
+
+Wyświetl wszystkie procesy bash
+-ps ax
+
+Wyświetl wszystkei procesy należące do użytkownika root
+-ps aux

@@ -1,0 +1,22 @@
+INFO: Zadanie do wykonania na linuxie z dostępnym środowiskiem graficznym.
+
+PID jest to indentyfikator procesu ([P]rocess [ID]entificator). Za jego pomocą możesz odwołać się do danego procesu za pomocą różnych mechanizmów systemu. Jednym z takich mechanizmów jest wysłanie sygnału (na przykład zakończenia) do procesu. Do tego można użyć komendy kill (może brzmi ona dość brutalnie, ale cóż, informatyka nie jest dla mięczaków). Komenda ta domyślnie wysyła sygnał zakończenia procesu do zadanego procesu.
+
+Zadanie:
+
+Uruchom wybrany przez Ciebie graficzny edytor tekstowy (np. gedit, gvim, Visual Studio Code, atom, itd...)
+
+Zobacz jaki ma on PID - przyda się do tego komenda ps
+
+-ps -ef
+
+Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
+-sudo kill
+
+UWAGA: Niektóre programy przechwytują sygnały i mogą je częściowo blokować. 
+			Jeśli program nie wyłącza się, to zobacz jaka jest jego reakcja.
+			Zobacz czy możesz wysłać do niego SIGKILL (gdzie sprawdzisz jak to zrobić?)
+
+Zobacz działanie komendy killall bash
+
+Zobacz czy kill zadziała dla dowolnego procesu.

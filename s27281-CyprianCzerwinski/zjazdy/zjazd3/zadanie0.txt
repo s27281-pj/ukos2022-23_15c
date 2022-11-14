@@ -1,0 +1,38 @@
+0 (rozgrzewkowe)
+Przejdź do swojego katalogu domowego
+
+Wydaj komendę: ls -a
+-komenda wyświetla wszystkie, także ukryte pliki w bierzącym katalogu.
+
+Zobacz ile plików wypisało.
+-Done
+
+Teraz wydaj komendę: ls -a | grep D
+-Wyświetliły się wszystkie pliki zawierające literę "D".
+
+Zobacz ile teraz jest wyników. Co się stało?
+-jw.
+
+Otóż program grep służy do wyszukiwania wierszy w pliku lub strumieniu wejściowym, które pasują do wzorca. Tu podano wzorzec jako "D".
+
+A teraz wykonaj komendę: ls -a | grep D > lista_plikow_z_literka_d.txt
+
+-Zapisujemy output w pliku, którego nazwa znajduje się po znaku ">".
+
+
+Zobacz czy utworzył sie jakiś plik?
+-Tak
+
+Jaka jest jego treść?
+-Jest to lista plików spełniająca warunek przed znakiem ">".
+
+Co znaczy | oraz co znaczy > ?
+-Oznacza zapis outputu do pliku.
+
+A teraz wykonaj komendę: ls -a | grep D | tee lista_plikow_z_literka_d_2.txt
+
+Zobacz czy plik się utworzył?
+Jaka jest treść względem poprzedniej próby bez programu tee?
+Co robi program tee?
+
+-Kopiuje zawartość pliku do zawartości nowego katalogu. 
