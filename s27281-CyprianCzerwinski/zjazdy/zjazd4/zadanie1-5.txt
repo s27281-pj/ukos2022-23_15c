@@ -39,15 +39,30 @@ b) bezwzględna
  cd /tmp/ukos/ala/
 
 
-2. mkdir -p jan/kowalski
+2. Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak utworzyć poddrzewo katalogów jan/kowalski w katalogu ale za pomocą jednej komendy?
+
+ 
+Odpowiedź: 
+
+mkdir -p jan/kowalski
 
 
-3.
+3. Masz taki układ katalogów, jak wyżej i ciągle jesteś w katalogu kota. Jak przenieść katalog ale do katalogu i używając:
+
+źródło (ścieżka względna), miejsce docelowe (ścieżka absolutna)
+
+źródło (ścieżka absolutna), miejsce docelowe (ścieżka względna)
+
+Odpowiedź: 
 a) cp -r /kot/ma/ale /tmp/ukos/ala/ma/kota/
 b) cp -r /tmp/ukos/kot/ma/ale/ /ala/ma/kota/
 
 
-4. ctrl+b/ctrl+z 
+4. Jak zamknąć program, który nie reaguje na ctrl+c ?
+
+Odpowiedź:  
+
+   ctrl+b/ctrl+z 
    kill 
 
 5.Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
