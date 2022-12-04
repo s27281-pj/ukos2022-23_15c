@@ -1,0 +1,66 @@
+1.
+
+Jest dane takie drzewo katalogów:
+
+.
+
+├── ala
+
+│   ├── i
+
+│   │   └── as
+
+│   └── ma
+
+│       └── kota
+
+└── kot
+
+    └── ma
+
+        └── ale
+
+Znajdujesz się w katalogu kota. Katalog ala, jest w katalogu /tmp/ukos.
+Jak przejść do katalogu ala ale za pomocą:
+
+ścieżki względnej (relatywnej)
+
+ścieżki bezwzględnej (absolutnej)
+
+
+
+a) względna
+   cd .. 
+   cd ..
+   cd ..
+
+
+b) bezwzględna
+ cd /tmp/ukos/ala/
+
+
+2. mkdir -p jan/kowalski
+
+
+3.
+a) cp -r /kot/ma/ale /tmp/ukos/ala/ma/kota/
+b) cp -r /tmp/ukos/kot/ma/ale/ /ala/ma/kota/
+
+
+4. ctrl+b/ctrl+z 
+   kill 
+
+5.Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?
+Tu będzie trochę opisu ode mnie na temat wyrażeń regularnych.
+Materiały:
+http://www.robelle.com/smugbook/regexpr.html
+https://www.regular-expressions.info/
+
+Narzędzia do testowania wyrażeń regularnych w przyzwoity sposób:
+https://regex101.com/
+https://regexr.com/
+
+Komenda jakiej u zyjemy to ls -d al* 
+
+
+

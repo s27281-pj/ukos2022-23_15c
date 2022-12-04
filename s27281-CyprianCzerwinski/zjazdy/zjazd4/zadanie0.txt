@@ -1,0 +1,5 @@
+1. Mozemy nie miec wymaganych uprawnien - mozna sprawdzic uprawnienia np dodajac parametr -l przy listowaniu "ls" zawartości katalogu. 
+
+2. Quota - mamy 1GB soft - 1GB 5MB hard. 
+
+ 

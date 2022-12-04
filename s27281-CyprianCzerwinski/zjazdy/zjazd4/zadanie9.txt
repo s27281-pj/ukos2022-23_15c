@@ -1,0 +1,7 @@
+Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
+
+Odpowiedź:
+
+oddajemy & po wywołaniu programu.
+
+Możemy też dodać alias "&". 

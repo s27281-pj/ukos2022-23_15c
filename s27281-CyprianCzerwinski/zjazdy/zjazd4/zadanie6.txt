@@ -1,0 +1,36 @@
+Nadaj uprawnienia do katalogu ala tak aby:
+
+każdy mógł do niego wejść
+
+tylko grupa mogła wyświetlić co w nim jest
+
+właściciel ma pełne prawa
+
+Podpowiedź: powyższe 3 punkty opisu to jedno zadanie. Nie 3 osobne.
+Przygotuj 3 wariacje rozwiązania tego zadania używając różnych notacji: 
+
+oktalnej/ósemkowej/cyfrowej
+
+literowej ze znakiem równości
+
+literowej z plusami i minusami
+
+Wszystkie wersje powinny być zapisane w jednym poleceniu (bez używania && czy | )
+
+
+Rozwiązanie: 
+
+a) aby nadać uprawnienia dzieki którym każdy będzie mógł wejść do katalogu należy posłużyć się komendą chmod $ chmod 555 ala. (alt r-xr-xr-x) 
+444 (alt (r--r--r--) nadaje uprawnienia odczytu i do wykonywania (odczyt jest potrzebny do przegladania zawartości a wykonywanie do wejścia do katalogu) dla kolejno Ownera, Grupy, Publiczne.
+Wnioskujemy z tego, ze kazda kombinacja przy ktorej oznaczymy publiczne
+
+
+b) Tylko grupa może wyświetlić chmod 050 ala (albo 040 jeżeli już jesteśmy w katalogu) alternatywnie ---r-x--- dla 050 lub ---r----- 
+
+
+c) 700 / rwx------
+
+edit. :D
+
+Poprawne rozwiązanie chmod 741 ala  / rwxr--r--
+

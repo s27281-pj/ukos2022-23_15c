@@ -1,0 +1,7 @@
+Jak utworzyć plik z listą plików w bieżącym katalogu?
+
+Odpowidź: 
+ls >> listaplikow.txt 
+albo - tak żeby to były tylko pliki 
+find . -maxdepth 1 -type f >> listaplikow.txt 
+
