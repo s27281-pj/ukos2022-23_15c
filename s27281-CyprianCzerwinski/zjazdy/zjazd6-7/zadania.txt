@@ -1,0 +1,9 @@
+
+ 
+dczas zajec uczylismy sie listowania komend, 
+listowania kolekcji, modulow, aplikacji, dyskow
+pobierania modulow,
+pobierania plikow za pomoca BitsTransfer
+uruchamialismy rowniez prosty skrypt sluzacy do wywolywania notyfikacji windows
+
+
