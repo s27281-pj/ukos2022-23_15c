@@ -35,4 +35,4 @@ Zobacz czy plik się utworzył?
 Jaka jest treść względem poprzedniej próby bez programu tee?
 Co robi program tee?
 
--Kopiuje zawartość pliku do zawartości nowego katalogu. 
+-wpisuje dane wejsciowe na standardowe wyjscie i do dowolnej liczby plikow. :
