@@ -62,7 +62,7 @@ b) cp -r /tmp/ukos/kot/ma/ale/ /ala/ma/kota/
 
 Odpowiedź:  
 
-   ctrl+b/ctrl+z 
+  ctrl+z 
    kill 
 
 5.Jak wypisać wszystkie pliki w bieżącym katalogu, których nazwa zaczyna się od al?

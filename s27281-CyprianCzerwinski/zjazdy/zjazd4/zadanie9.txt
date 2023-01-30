@@ -2,6 +2,9 @@ Jak uruchomić program by nie blokował terminala. Są 2 sposoby. Jakie?
 
 Odpowiedź:
 
-oddajemy & po wywołaniu programu.
+oddajemy & po wywołaniu programu. Np 
+-  ./program &
+albo użyć 
+- nohup ./program &
 
-Możemy też dodać alias "&". 
+
