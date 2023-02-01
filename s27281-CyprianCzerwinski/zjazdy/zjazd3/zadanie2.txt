@@ -13,7 +13,7 @@ Zobacz jaki ma on PID - przyda się do tego komenda ps
 Wydaj komendę kill w taki sposób, aby ten edytor się wyłączył. Zobacz czy to działa.
 -sudo kill
 
-zukajmy proces, ktory chcemmy zabic 
+zabijamy  proces poprzez uzycie:  
 -pidof vim
 -kill -9 (nr pid)
 alternatywnie 
