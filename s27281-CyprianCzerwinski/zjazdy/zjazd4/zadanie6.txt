@@ -29,13 +29,15 @@ Rozwiązanie:
 
 
 Poprawne rozwiązanie 
-chmod 741 ala (notyfikacja osemkowa) 
-chmod rwxr----x ala (zapis symboliczny)
-chmod u+x-rw,g+r-wx,o+rwx ala (notacja ze znakiem plus i minus)
-chmod u=rwx,g=r,o=x ala (notacja ze znakiem "=")
+chmod 751 ala (notyfikacja osemkowa) 
+##chmod rwxr----x ala (zapis symboliczny)-- tylko biernie
+chmod u+rwx,g+rx-w,o+x-rw ala (notacja ze znakiem plus i minus)
+chmod u=rwx,g=rx,o=x ala (notacja ze znakiem "=")
 
+wyjasniam decyzje o uzyciu powyzszych bitow. 
+-7 to uprawnienia rwx - czyli wszystkie uprawnienia dla wlasciciela,
+-4+1 to read dla czlonkow grupy i to jest ten moemnt, kiedy zrozumialem, co robilem zle. Co z tego, ze czlonkowie grupy moga czytac, jezeli nie moga wejsc do katalogu. Czyli 4+1.
+-1 przysporzyl mi najwiecej klopotu umozliwia nie tylko uruchamianie aplikacji ale rwoniez umozliwia przegladanie plikow. 
 
-
-
-
+-Zapis symboliczny w formacie, ktory zaproponowalem niestedy nie zadziala - jest on natomiast stosowany podczas podgladu dostepu do plikow. 
 
